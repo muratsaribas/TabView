@@ -1,0 +1,29 @@
+.tab-view{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+
+    .tab-item{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0rem 0.5rem;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #f9fafb;
+            border-top-right-radius: .5rem;
+            border-top-left-radius: .5rem;
+        }
+    }
+}
+
+.active{
+    color: #1c64f2;
+    background-color: #f3f4f6;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}

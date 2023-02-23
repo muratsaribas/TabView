@@ -1,0 +1,6 @@
+<div class="tab-view">
+    <div class="tab-item" *ngFor="let tab of tabs" (click)="selectTab(tab)" [class.active]="tab.active">
+        {{ tab.header }}
+    </div>
+</div>
+<ng-content></ng-content>
